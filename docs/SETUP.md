@@ -24,7 +24,7 @@ Before setting up the UPSC Prep App, ensure you have the following installed on 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/sachin-tripathi99/upsc_prep_app.git
+git clone https://github.com/[your-username]/upsc_prep_app.git
 cd upsc_prep_app
 ```
 

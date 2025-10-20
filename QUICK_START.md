@@ -33,6 +33,8 @@ After running `npm run seed`:
 
 ## 🔑 API Authentication
 
+All API endpoints are prefixed with `/api` (e.g., `/api/auth/login`).
+
 Get a token:
 ```bash
 curl -X POST http://localhost:5000/api/auth/login \
@@ -227,8 +229,8 @@ npm install
 
 ## 🌐 Links
 
-- **Repository**: https://github.com/sachin-tripathi99/upsc_prep_app
-- **Issues**: https://github.com/sachin-tripathi99/upsc_prep_app/issues
+- **Repository**: https://github.com/[your-username]/upsc_prep_app
+- **Issues**: https://github.com/[your-username]/upsc_prep_app/issues
 
 ## 🤝 Support
 

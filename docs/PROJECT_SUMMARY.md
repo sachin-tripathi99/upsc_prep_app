@@ -198,7 +198,7 @@ Documentation:
 ### Quick Start
 ```bash
 # Clone the repository
-git clone https://github.com/sachin-tripathi99/upsc_prep_app.git
+git clone https://github.com/[your-username]/upsc_prep_app.git
 cd upsc_prep_app
 
 # Install dependencies
