@@ -1,0 +1,42 @@
+/* RoadmapPage Styles */
+.roadmap-page { animation: fadeIn 0.5s ease-in; }
+.overview-description { text-align: center; max-width: 900px; margin: 0 auto 3rem; font-size: 1.1rem; line-height: 1.7; color: #555; }
+.phases-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-bottom: 3rem; }
+.phase-card { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.phase-card h3 { color: #667eea; margin-bottom: 1rem; }
+.phase-info { display: flex; gap: 1rem; margin-bottom: 1rem; }
+.phase-months, .phase-duration { padding: 0.3rem 0.7rem; background: #f8f9fa; border-radius: 8px; font-size: 0.9rem; }
+.routine-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-bottom: 2rem; }
+.routine-card { background: white; padding: 1.5rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.tips-list { list-style: none; padding: 0; }
+.tips-list li { padding: 1rem; margin-bottom: 0.5rem; background: white; border-left: 4px solid #667eea; border-radius: 8px; }
+.action-buttons { text-align: center; margin-top: 2rem; }
+.month-selector { display: flex; gap: 1rem; margin-bottom: 2rem; flex-wrap: wrap; }
+.month-btn { padding: 0.75rem 1.5rem; border: 2px solid #667eea; background: white; color: #667eea; border-radius: 8px; cursor: pointer; transition: all 0.3s; }
+.month-btn.active { background: #667eea; color: white; }
+.weeks-container { }
+.week-card { background: white; padding: 2rem; border-radius: 12px; margin-bottom: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.week-card h3 { color: #667eea; margin-bottom: 1.5rem; }
+.days-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 1rem; }
+.day-card { background: #f8f9fa; padding: 1rem; border-radius: 8px; cursor: pointer; transition: all 0.3s; }
+.day-card:hover { background: #e8e8e8; transform: translateY(-2px); }
+.day-card.completed { background: #d4edda; border: 2px solid #27ae60; }
+.day-header { display: flex; justify-content: space-between; margin-bottom: 0.5rem; }
+.day-number { font-weight: bold; color: #2c3e50; }
+.check-mark { color: #27ae60; font-size: 1.2rem; }
+.day-topics { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-bottom: 0.5rem; }
+.topic-tag { font-size: 0.75rem; padding: 0.2rem 0.5rem; background: white; border-radius: 8px; }
+.day-hours { font-size: 0.85rem; color: #7f8c8d; }
+.day-view { }
+.view-header { display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; }
+.day-details-card { background: white; padding: 2rem; border-radius: 12px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.day-status { text-align: center; margin-bottom: 2rem; }
+.day-info { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-bottom: 2rem; padding: 1.5rem; background: #f8f9fa; border-radius: 12px; }
+.tasks-section h3 { margin-bottom: 1rem; }
+.task-list { list-style: none; padding: 0; }
+.task-item { display: flex; gap: 1rem; padding: 1rem; margin-bottom: 0.5rem; background: #f8f9fa; border-radius: 8px; }
+.task-number { background: #667eea; color: white; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; border-radius: 50%; flex-shrink: 0; }
+.task-text { flex: 1; }
+.study-tips-day { margin-top: 2rem; padding: 1.5rem; background: #fff3cd; border-radius: 12px; }
+.study-tips-day ul { padding-left: 1.5rem; }
+@media (max-width: 768px) { .phases-grid, .routine-grid { grid-template-columns: 1fr; } .days-grid { grid-template-columns: repeat(2, 1fr); } }
