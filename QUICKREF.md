@@ -171,8 +171,14 @@ npm start
 cp backend/ias_prime.db backend/ias_prime_backup_$(date +%Y%m%d).db
 
 # Automated weekly backup (add to cron/Task Scheduler)
-# Linux/Mac crontab:
+# Linux/Mac crontab (edit with: crontab -e):
+# Note: Use % without escaping in crontab, but escape with \ in shell
 0 0 * * 0 cp /path/to/backend/ias_prime.db /path/to/backups/ias_prime_$(date +\%Y\%m\%d).db
+
+# Or create a backup script and call it from cron:
+# backup.sh:
+# #!/bin/bash
+# cp backend/ias_prime.db backups/ias_prime_$(date +%Y%m%d).db
 ```
 
 ### Exporting Data
@@ -214,6 +220,8 @@ pip install -r requirements.txt
 ### Frontend won't start
 ```bash
 cd frontend
+# Safety: Make sure you're in the frontend directory!
+pwd  # Verify you're in the correct directory
 rm -rf node_modules package-lock.json
 npm install
 ```
@@ -246,10 +254,10 @@ python seed_data.py
 
 ## Useful Links
 
-- **Repository:** https://github.com/sachin-tripathi99/upsc_prep_app
-- **Ollama Docs:** https://ollama.com/docs
-- **FastAPI Docs:** https://fastapi.tiangolo.com
-- **React Docs:** https://react.dev
+- **Repository:** [https://github.com/sachin-tripathi99/upsc_prep_app](https://github.com/sachin-tripathi99/upsc_prep_app)
+- **Ollama Docs:** [https://ollama.com/docs](https://ollama.com/docs)
+- **FastAPI Docs:** [https://fastapi.tiangolo.com](https://fastapi.tiangolo.com)
+- **React Docs:** [https://react.dev](https://react.dev)
 
 ## Version History
 
@@ -267,5 +275,5 @@ python seed_data.py
 
 ---
 
-*Last Updated: 2024*
+*Last Updated: January 2025*
 *For detailed documentation, see other .md files in the repository*
