@@ -1,0 +1,223 @@
+{
+  "metadata": {
+    "title": "15-Month UPSC Preparation Roadmap",
+    "total_days": 450,
+    "description": "Comprehensive day-by-day study plan for UPSC Civil Services Examination"
+  },
+  "day_1": {
+    "theme": "Understanding the Foundation - Polity Basics",
+    "tasks": [
+      {
+        "id": "d1t1",
+        "text": "Read 'Laxmikanth - Chapter 1: Historical Background of Indian Constitution'",
+        "topic_tag": "polity_ch_1",
+        "duration_mins": 60
+      },
+      {
+        "id": "d1t2",
+        "text": "Read 'NCERT Class 11 History - Chapter 1: From the Beginning of Time'",
+        "topic_tag": "history_ncert_1",
+        "duration_mins": 45
+      },
+      {
+        "id": "d1t3",
+        "text": "Read today's 'Daily Briefing' - Current Affairs",
+        "topic_tag": "current_affairs",
+        "duration_mins": 30
+      },
+      {
+        "id": "d1t4",
+        "text": "Review unlocked flashcards (0 expected today)",
+        "topic_tag": "revision",
+        "duration_mins": 15
+      }
+    ]
+  },
+  "day_2": {
+    "theme": "Constitution - Salient Features",
+    "tasks": [
+      {
+        "id": "d2t1",
+        "text": "Read 'Laxmikanth - Chapter 2: Salient Features of the Constitution'",
+        "topic_tag": "polity_ch_2",
+        "duration_mins": 60
+      },
+      {
+        "id": "d2t2",
+        "text": "Read 'NCERT Class 11 History - Chapter 2: Early Societies'",
+        "topic_tag": "history_ncert_2",
+        "duration_mins": 45
+      },
+      {
+        "id": "d2t3",
+        "text": "Read today's 'Daily Briefing' - Current Affairs",
+        "topic_tag": "current_affairs",
+        "duration_mins": 30
+      },
+      {
+        "id": "d2t4",
+        "text": "Review flashcards from Day 1 topics",
+        "topic_tag": "revision",
+        "duration_mins": 20
+      }
+    ]
+  },
+  "day_3": {
+    "theme": "Preamble and Union & its Territory",
+    "tasks": [
+      {
+        "id": "d3t1",
+        "text": "Read 'Laxmikanth - Chapter 3: Preamble of the Constitution'",
+        "topic_tag": "polity_ch_3",
+        "duration_mins": 45
+      },
+      {
+        "id": "d3t2",
+        "text": "Read 'Laxmikanth - Chapter 4: Union and its Territory'",
+        "topic_tag": "polity_ch_4",
+        "duration_mins": 45
+      },
+      {
+        "id": "d3t3",
+        "text": "Read 'NCERT Class 11 Geography - Chapter 1: India - Location'",
+        "topic_tag": "geography_ncert_1",
+        "duration_mins": 40
+      },
+      {
+        "id": "d3t4",
+        "text": "Read today's 'Daily Briefing' - Current Affairs",
+        "topic_tag": "current_affairs",
+        "duration_mins": 30
+      },
+      {
+        "id": "d3t5",
+        "text": "Attempt 10 MCQs on topics covered so far",
+        "topic_tag": "practice",
+        "duration_mins": 20
+      }
+    ]
+  },
+  "day_4": {
+    "theme": "Citizenship and Fundamental Rights - Part 1",
+    "tasks": [
+      {
+        "id": "d4t1",
+        "text": "Read 'Laxmikanth - Chapter 5: Citizenship'",
+        "topic_tag": "polity_ch_5",
+        "duration_mins": 50
+      },
+      {
+        "id": "d4t2",
+        "text": "Read 'Laxmikanth - Chapter 6: Fundamental Rights - Part 1 (Articles 12-18)'",
+        "topic_tag": "polity_ch_6",
+        "duration_mins": 60
+      },
+      {
+        "id": "d4t3",
+        "text": "Read today's 'Daily Briefing' - Current Affairs",
+        "topic_tag": "current_affairs",
+        "duration_mins": 30
+      },
+      {
+        "id": "d4t4",
+        "text": "Review all flashcards due today",
+        "topic_tag": "revision",
+        "duration_mins": 25
+      }
+    ]
+  },
+  "day_5": {
+    "theme": "Fundamental Rights - Part 2 and Weekly Review",
+    "tasks": [
+      {
+        "id": "d5t1",
+        "text": "Read 'Laxmikanth - Chapter 6: Fundamental Rights - Part 2 (Articles 19-32)'",
+        "topic_tag": "polity_ch_6_part2",
+        "duration_mins": 60
+      },
+      {
+        "id": "d5t2",
+        "text": "Read 'NCERT Class 11 Geography - Chapter 2: Structure and Physiography'",
+        "topic_tag": "geography_ncert_2",
+        "duration_mins": 45
+      },
+      {
+        "id": "d5t3",
+        "text": "Read today's 'Daily Briefing' - Current Affairs",
+        "topic_tag": "current_affairs",
+        "duration_mins": 30
+      },
+      {
+        "id": "d5t4",
+        "text": "Weekly Review: Attempt 20 MCQs covering Week 1 topics",
+        "topic_tag": "practice",
+        "duration_mins": 30
+      },
+      {
+        "id": "d5t5",
+        "text": "Write one practice answer (150 words) on any Fundamental Right",
+        "topic_tag": "mains_practice",
+        "duration_mins": 25
+      }
+    ]
+  },
+  "day_6": {
+    "theme": "Directive Principles and Rest Day",
+    "tasks": [
+      {
+        "id": "d6t1",
+        "text": "Read 'Laxmikanth - Chapter 7: Directive Principles of State Policy'",
+        "topic_tag": "polity_ch_7",
+        "duration_mins": 60
+      },
+      {
+        "id": "d6t2",
+        "text": "Light reading: Read today's 'Daily Briefing' - Current Affairs",
+        "topic_tag": "current_affairs",
+        "duration_mins": 30
+      },
+      {
+        "id": "d6t3",
+        "text": "Review all flashcards due today",
+        "topic_tag": "revision",
+        "duration_mins": 30
+      },
+      {
+        "id": "d6t4",
+        "text": "Rest & Recreation - Watch a documentary on Indian Constitution",
+        "topic_tag": "rest",
+        "duration_mins": 60
+      }
+    ]
+  },
+  "day_7": {
+    "theme": "Weekly Off - Revision and Planning",
+    "tasks": [
+      {
+        "id": "d7t1",
+        "text": "Complete Weekly Review: Revise all topics covered in Week 1",
+        "topic_tag": "weekly_revision",
+        "duration_mins": 90
+      },
+      {
+        "id": "d7t2",
+        "text": "Attempt 30 MCQs on Week 1 topics (Mixed)",
+        "topic_tag": "practice",
+        "duration_mins": 45
+      },
+      {
+        "id": "d7t3",
+        "text": "Plan next week's study schedule",
+        "topic_tag": "planning",
+        "duration_mins": 20
+      },
+      {
+        "id": "d7t4",
+        "text": "Self-care: Exercise, meditation, or hobby",
+        "topic_tag": "rest",
+        "duration_mins": 60
+      }
+    ]
+  },
+  "sample_note": "This roadmap contains only 7 days as a demonstration. In a complete implementation, all 450 days would be meticulously planned with coverage of entire UPSC syllabus including History, Geography, Polity, Economy, Science & Technology, Environment, Current Affairs, and Ethics."
+}
